@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <title>Banner de cookies — localhost</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; color: #1f2933; }
+    pre { background: #f4f6f8; border: 1px solid #e4e7eb; border-radius: 8px; padding: 14px; overflow-x: auto; }
+    code { font-size: 13px; }
+    h1 { font-size: 20px; }
+    .aviso { color: #616e7c; font-size: 14px; }
+    button { font: inherit; cursor: pointer; padding: 8px 14px; border-radius: 6px; border: 1px solid #cbd2d9; background: white; }
+  </style>
+</head>
+<body>
+  <h1>Banner de consentimento gerado para localhost</h1>
+  <p class="aviso">Gerado a partir do último scan. Para incorporar ao site do cliente, adicione a tag abaixo antes do fechamento de <code>&lt;/body&gt;</code>:</p>
+  <pre><code>&lt;script src="https://cdn.jsdelivr.net/gh/gabriellsantos485/public_repo@main/1/banner.js" defer&gt;&lt;/script&gt;</code></pre>
+  <p class="aviso">Marque cada script de terceiro no HTML do site como <script type="text/plain" data-categoria="analitico" data-src="https://exemplo.com/analytics.js"></script>. Scripts inline podem usar apenas type="text/plain" data-categoria="..." com o codigo dentro da tag, sem data-src.</p>
+  <p><button onclick="window.abrirConfiguracoesCookies && window.abrirConfiguracoesCookies()">Reabrir preferências de cookies</button></p>
+
+  <script src="./banner.js" defer></script>
+</body>
+</html>
